@@ -1,18 +1,142 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
-    height: 80px;
-    background-color: blue;
-    padding: 20px;
+#navegacion {
+    position: sticky;
+    top: 0px;
+}
+.navbar{
+    background-color: #e9e9f3;
 }
 
-nav{
-    display: flex;
-    flex-direction: row;
+.navbar-collapse{
     justify-content: space-between;
     align-items: center;
+}
+
+section {
+    background-color: white;
+    padding: 0px;
+}
+
+.articulo-izquierdo {
+    height: 450px;
+    background-color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-articulo{
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+p {
+    color: black;
+    font-weight: bold;
+}
+
+.articulo-medio {
+    height: 450px;
+    background-color: yellow;   
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+}
+
+.articulo-derecho {
+    height: 450px;
+    background-color: blue;   
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+}
+
+.articulo-izquierdo .imgPerfil {
+    height: 100px;
+    width: 100px;
+    background-image: url(/multimedia/imgperfil.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 2px;
+}
+
+footer {
+    min-height: 350px;
+    background-color: white;
+}
+
+footer p{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.iconos-redes-sociales a{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 2px;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: black;
+    font-size: 18px;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: grey;
+    border: 2px solid blue;
+}
+
+.iconos-redes-sociales a:hover i {
+    color: yellow;
+}
+
+.whatsApp {
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: springgreen;
+    text-shadow: 0 0 2px black;
+}
+
+.whatsApp:hover {
+    background-color: black;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    }
 }
