@@ -20,6 +20,8 @@
 section {
     background-color: white;
     padding: 0px;
+    border: solid 2px black;
+    margin-top: 20px;
 }
 
 .articulo-izquierdo {
@@ -51,6 +53,11 @@ p {
     align-items: center;
     justify-content: center; 
 }
+
+.articulo:hover {
+    transform: scale(1.09);
+}
+
 
 .articulo-derecho {
     height: 450px;
@@ -106,7 +113,7 @@ footer p{
 }
 
 .iconos-redes-sociales a:hover {
-    background-color: grey;
+    background-color: black;
     border: 2px solid blue;
 }
 
@@ -133,6 +140,76 @@ footer p{
     background-color: black;
 }
 
+.whatsApp:hover i {
+    color: springgreen;
+}
+
+/* css slice galeria */
+
+.galeria {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content:right;
+}
+
+.galeria2 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria3 {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.caja-img {
+    height: 450px;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    background-color: grey;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px red;
+    text-align: center;
+    }
+
+
+.img-art1 {
+    height: 250px;
+    width: 100%;
+    background-image: url(../multimedia/desert-gf9f09f727_640.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-art2 {
+    height: 250px;
+    width: 100%;
+    background-image: url(../multimedia/beach-g841aebe7f_640.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-art3 {
+    height: 250px;
+    width: 100%;
+    background-image: url(../multimedia/mountain-landscape-ga987c668b_640.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 
 @media screen and (max-width: 767px) {
