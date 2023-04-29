@@ -146,49 +146,57 @@ footer p{
 
 /* css slice galeria */
 
-.galeria {
+.galeria1 {
     width: 100%;
     height: auto;
     background-color: black;
     display: flex;
-    justify-content:right;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 20px;
 }
 
 .galeria2 {
     width: 100%;
     height: auto;
     background-color: black;
-    padding: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 20px;
 }
 
 .galeria3 {
     width: 100%;
     height: auto;
     background-color: black;
-    padding: 20px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 20px;
 }
+
 
 .caja-img {
     height: 450px;
-    width: 30%;
+    min-width: 350px;
     padding: 20px;
     margin: 20px;
-    background-color: grey;
-    color: black;
+    background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
-    border: solid 2px red;
-    text-align: center;
+    align-items: center;
+    border: solid 2px white;
     }
 
 
 .img-art1 {
-    height: 250px;
+    height: 450px;
     width: 100%;
     background-image: url(../multimedia/desert-gf9f09f727_640.jpg);
     background-position: center;
@@ -196,7 +204,7 @@ footer p{
 }
 
 .img-art2 {
-    height: 250px;
+    height: 450px;
     width: 100%;
     background-image: url(../multimedia/beach-g841aebe7f_640.jpg);
     background-position: center;
@@ -204,13 +212,60 @@ footer p{
 }
 
 .img-art3 {
-    height: 250px;
+    height: 450px;
     width: 100%;
     background-image: url(../multimedia/mountain-landscape-ga987c668b_640.jpg);
     background-position: center;
     background-size: cover;
 }
 
+.img-art4 {
+    height: 450px;
+    width: 100%;
+    background-image: url(../multimedia/paisaje-flores.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-art5 {
+    height: 450px;
+    width: 100%;
+    background-image: url(../multimedia/galaxia.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-art6 {
+    height: 450px;
+    width: 100%;
+    background-image: url(../multimedia/cabañas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-art7 {
+    height: 450px;
+    width: 100%;
+    background-image: url(../multimedia/cara.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-art8 {
+    height: 450px;
+    width: 100%;
+    background-image: url(../multimedia/mursi-g28ea12d8e_640.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-art9 {
+    height: 450px;
+    width: 100%;
+    background-image: url(../multimedia/selva.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 @media screen and (max-width: 767px) {
     .navbar-brand{
